@@ -44,12 +44,11 @@
 
 - (void)setCancelButton {
     //add forward arrow
-    UIImage *imgCancel = [UIImage imageNamed:@"btn_cancel.png"];
     self.btnCancel = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.btnCancel addTarget:self action:@selector(onTapButtonCancel) forControlEvents:UIControlEventTouchUpInside];
-    [self.btnCancel setImage:imgCancel forState:UIControlStateNormal];
+    [self.btnCancel setImage:self.imgCancel forState:UIControlStateNormal];
     [self.btnCancel setTintColor:[UIColor whiteColor]];
-    self.btnCancel.frame = CGRectMake(self.view.frame.size.width-(imgCancel.size.width*2)-18, 18, imgCancel.size.width*2, imgCancel.size.height*2);
+    self.btnCancel.frame = CGRectMake(self.view.frame.size.width-(self.imgCancel.size.width*2)-18, 18, self.imgCancel.size.width*2, self.imgCancel.size.height*2);
     [self.view addSubview:self.btnCancel];
     
 }

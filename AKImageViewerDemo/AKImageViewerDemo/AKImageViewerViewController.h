@@ -12,6 +12,7 @@
 
 @property (retain, nonatomic) IBOutlet UIButton *btnCancel;
 @property (retain, nonatomic) IBOutlet UIImage *image;
+@property (retain, nonatomic) IBOutlet UIImage *imgCancel;
 @property (retain, nonatomic) IBOutlet UIImageView *imageView;
 @property (retain, nonatomic) IBOutlet UIPanGestureRecognizer *pan;
 @property (retain, nonatomic) IBOutlet UIScrollView *scrollView;

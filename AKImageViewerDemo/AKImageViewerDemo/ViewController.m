@@ -40,6 +40,8 @@
 - (void)onTapLionButton {
     self.aKImageViewerViewController = [[AKImageViewerViewController alloc] init];
     self.aKImageViewerViewController.image = self.btnLionPicture.imageView.image;
+    self.aKImageViewerViewController.imgCancel = [UIImage imageNamed:@"btn_cancel.png"];
+
     [self.view addSubview:self.aKImageViewerViewController.view];
     [self.aKImageViewerViewController centerPictureFromPoint:self.btnLionPicture.frame.origin ofSize:self.btnLionPicture.frame.size withCornerRadius:self.btnLionPicture.layer.cornerRadius];
     
@@ -48,6 +50,7 @@
 - (void)onTapSceneryButton {
     self.aKImageViewerViewController = [[AKImageViewerViewController alloc] init];
     self.aKImageViewerViewController.image = self.btnSceneryPicture.imageView.image;
+    self.aKImageViewerViewController.imgCancel = [UIImage imageNamed:@"btn_cancel.png"];
     self.aKImageViewerViewController.disableSavingImage = YES;
     [self.view addSubview:self.aKImageViewerViewController.view];
     [self.aKImageViewerViewController centerPictureFromPoint:self.btnSceneryPicture.frame.origin ofSize:self.btnSceneryPicture.frame.size withCornerRadius:self.btnSceneryPicture.layer.cornerRadius];
