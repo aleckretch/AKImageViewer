@@ -8,7 +8,7 @@ s.license           = { :type => 'MIT', :file => 'LICENSE' }
 s.author            = { 'Alec Kretch' => 'aleckretch@gmail.com' }
 s.source            = { :git => 'https://github.com/aleckretch/AKImageViewer.git', :tag => s.version.to_s }
 s.platform          = :ios
-s.source_files      = '*.{m,h,png}'
+s.source_files      = 'AKImageViewer/*'
 s.requires_arc      = true
 
 end
