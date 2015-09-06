@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'AKImageViewer'
-s.version           = '1.0.6'
+s.version           = '1.0.7'
 s.summary           = 'A clean iOS add-on to view images full-sized with a smooth interface and feel.'
 s.homepage          = 'https://github.com/aleckretch/AKImageViewer'
 s.license           = { :type => 'MIT', :file => 'LICENSE' }
