@@ -3,7 +3,7 @@ A clean iOS add-on to view images full-sized with a smooth interface and feel.
 
 ## Adding AKImageViewer to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add AKImageViewer to your project.
 
